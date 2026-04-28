@@ -4,9 +4,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>M-G</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <section class="main-page">
+        <header class="header center">
+            <div class="welcom">
+                <h1 class="welcom__greeting">Добро пожаловать <br>на мой сайт мини-игр</h1>
+                <p class="welcom__description">Тебе предстоит пройти несколько увлекательных игр. 
+                    <br>Если готов, нажимай <b class="welcom__description_weight">«Поехали!»</b> и <b class="welcom__description_weight">приступай.</b></p>
+                <a class="welcom__start" href="#GO">Поехали!</a>
+            </div>
+        </header>
+        <div class="scroll-bar">
+            <span class="scroll-bar__name">ВИКТОРИНА</span>
+            <span><img class="scroll-bar__star" src="Image/Black-star.png" alt="*"></span>
+            <span class="scroll-bar__name">УГАДАЙ ЧИСЛО</span>
+            <span><img class="scroll-bar__star" src="Image/Black-star.png" alt="*"></span>
+            <span class="scroll-bar__name">ПЕРЕВЕРНИ ТЕКСТ</span>
+            <span><img class="scroll-bar__star" src="Image/Black-star.png" alt="*"></span>
+            <span class="scroll-bar__name">ПРОСТАЯ АРИФМЕТИКА</span>
+            <span><img class="scroll-bar__star" src="Image/Black-star.png" alt="*"></span>
+            <span class="scroll-bar__name">КАМЕНЬ, НОЖНИЦЫ, БУМАГА</span>
+            <span><img class="scroll-bar__star" src="Image/Black-star.png" alt="*"></span>
+            <span class="scroll-bar__name">ГЕНЕРАТОР СЛУЧАЙНЫХ ЦВЕТОВ</span>
+            <span><img class="scroll-bar__star" src="Image/Black-star.png" alt="*"></span>
+        </div>
+    </section>
+    <section class="about center">
+        <h2 class="about__name" id="GO">Об играх</h2>
+        <p class="about__info">В моей коллекции представлено 6 игр на разные темы.
+            <br>Игры несложные — в них может поиграть каждый.
+            <br>Все игры доступны для пользования.</p>
+        <div class="game">
+            <div class="game__block">
+                <a class="game__link" href="#">
+                    <div class="game__cart">
+                        <img class="game__image game__image-number" src="Image/Guess-the-number-1.png" alt="Угадай число">
+                        <p class="game__number">Игра №1</p>
+                        <h3 class="game__name">Угадай число</h3>
+                    </div>
+                </a>
+                <a class="game__link" href="#">
+                    <div class="game__cart game__cart-big">
+                        <img class="game__image game__image-rsp" src="Image/RSP.png" alt="Камень, ножницы, бумага">
+                        <p class="game__number">Игра №4</p>
+                        <h3 class="game__name">Камень, <br>ножницы, <br>бумага</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="game__block">
+                <a class="game__link" href="#">
+                    <div class="game__cart game__cart-big">
+                        <img class="game__image game__image-arithmetic" src="Image/Arithmetic.png" alt="Простая арифметика">
+                        <p class="game__number">Игра №2</p>
+                        <h3 class="game__name">Простая <br>арифметика</h3>
+                    </div>
+                </a>
+                <a class="game__link" href="#">
+                    <div class="game__cart">
+                        <img class="game__image game__image-quiz" src="Image/Quiz.png" alt="Простая викторина">
+                        <p class="game__number">Игра №5</p>
+                        <h3 class="game__name">Простая <br>викторина</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="game__block">
+                <a class="game__link" href="#">
+                    <div class="game__cart">
+                        <img class="game__image game__image-turn" src="Image/Turn.png" alt="Переверн текст">
+                        <p class="game__number">Игра №3</p>
+                        <h3 class="game__name">Переверни текст</h3>
+                    </div>
+                </a>
+                <a class="game__link" href="#">
+                    <div class="game__cart game__cart-big">
+                        <img class="game__image game__image-generator" src="Image/Generator.png" alt="Генератор случайных цветов">
+                        <p class="game__number">Игра №6</p>
+                        <h3 class="game__name">Генератор <br>случайных <br>цветов</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="footer__text">Все права защищены.</p>
+    </footer>
 </body>
 </html>

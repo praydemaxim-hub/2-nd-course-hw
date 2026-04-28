@@ -180,4 +180,53 @@ select {
   font-weight: 600;
   line-height: 100%;
   color: #000000;
+}
+
+@media (max-width: 767px) {
+  /*br {
+      display: none;
+  }*/
+  .center {
+    padding-left: calc(50% - 202px);
+    padding-right: calc(50% - 202px);
+  }
+  .welcom {
+    padding-top: 147px;
+    padding-bottom: 131px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .welcom__greeting {
+    font-size: 40px;
+    text-align: center;
+  }
+  .welcom__description {
+    font-size: 16px;
+    text-align: center;
+    line-height: 100%;
+  }
+  .welcom__start {
+    margin-top: 36px;
+    font-size: 16px;
+    padding: 16px 103px;
+    width: 78px;
+  }
+  .scroll-bar__name {
+    font-size: 16px;
+    padding: 16px 27px 16px 24px;
+  }
+  .scroll-bar__star {
+    width: 19px;
+    height: 19px;
+  }
+  .about {
+    display: none;
+  }
+  .footer {
+    height: 100px;
+  }
+  .footer__text {
+    font-size: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */

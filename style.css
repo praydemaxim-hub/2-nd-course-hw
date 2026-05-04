@@ -299,6 +299,10 @@ select {
     padding: 16px 103px;
     width: 78px;
   }
+  .scroll-bar {
+    position: relative;
+    left: -6px;
+  }
   .scroll-bar__name {
     font-size: 16px;
     padding: 16px 27px 16px 24px;

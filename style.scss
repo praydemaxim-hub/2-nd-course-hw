@@ -25,6 +25,37 @@ select {
     background-color: #E1FF8F;
 }
 
+.background {
+    position: absolute;
+    &__image-1 {
+        position: absolute;
+        left: 734px;
+    }
+    &__image-2 {
+        position: absolute;
+        top: 568px;
+        left: 893px;
+    }
+    &__image-3 {
+        position: absolute;
+        top: 538px;
+        left: 828px;
+    }
+    &__image-4 {
+        position: absolute;
+        top: 69px;
+        left: 36px;
+    }
+    &__image-5 {
+        position: absolute;
+        top: 94px;
+        left: -57px;
+    }
+    &__image-6 {
+        display: none;
+    }
+}
+
 .welcom {
     padding-top: 196px;
     padding-bottom: 156px;
@@ -67,6 +98,8 @@ select {
 .scroll-bar {
     background-color: #BCEC30;
     width: 3220px;
+    position: relative;
+    left: -30px;
     display: flex;
     align-items: center;
     &__name {
@@ -97,6 +130,25 @@ select {
         line-height: 32px;
         color: #FFFFFF;
     }
+    &__image {
+        position: relative;
+        z-index: 0;
+        &-1 {
+            position: absolute;
+            top: 77px;
+            left: 863px;
+        }
+        &-2 {
+            position: absolute;
+            top: 822px;
+            left: -76px;
+        }
+        &-3 {
+            position: absolute;
+            top: 770px;
+            left: -91px;
+        }
+    }   
 }
 
 .game {
@@ -105,6 +157,8 @@ select {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 32px;
+    position: relative;
+    z-index: 1;
     &__block {
         grid-column: span 4;
         display: flex;
@@ -181,4 +235,5 @@ select {
         color: #000000;
     }
 }
+
 @import 'mobile';

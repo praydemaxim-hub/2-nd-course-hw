@@ -25,6 +25,37 @@ select {
   background-color: #E1FF8F;
 }
 
+.background {
+  position: absolute;
+}
+.background__image-1 {
+  position: absolute;
+  left: 734px;
+}
+.background__image-2 {
+  position: absolute;
+  top: 568px;
+  left: 893px;
+}
+.background__image-3 {
+  position: absolute;
+  top: 538px;
+  left: 828px;
+}
+.background__image-4 {
+  position: absolute;
+  top: 69px;
+  left: 36px;
+}
+.background__image-5 {
+  position: absolute;
+  top: 94px;
+  left: -57px;
+}
+.background__image-6 {
+  display: none;
+}
+
 .welcom {
   padding-top: 196px;
   padding-bottom: 156px;
@@ -67,6 +98,8 @@ select {
 .scroll-bar {
   background-color: #BCEC30;
   width: 3220px;
+  position: relative;
+  left: -30px;
   display: flex;
   align-items: center;
 }
@@ -98,6 +131,25 @@ select {
   line-height: 32px;
   color: #FFFFFF;
 }
+.about__image {
+  position: relative;
+  z-index: 0;
+}
+.about__image-1 {
+  position: absolute;
+  top: 77px;
+  left: 863px;
+}
+.about__image-2 {
+  position: absolute;
+  top: 822px;
+  left: -76px;
+}
+.about__image-3 {
+  position: absolute;
+  top: 770px;
+  left: -91px;
+}
 
 .game {
   padding-top: 72px;
@@ -105,6 +157,8 @@ select {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   gap: 32px;
+  position: relative;
+  z-index: 1;
 }
 .game__block {
   grid-column: span 4;
@@ -180,4 +234,86 @@ select {
   font-weight: 600;
   line-height: 100%;
   color: #000000;
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: calc(50% - 202px);
+    padding-right: calc(50% - 202px);
+  }
+  .background__image-1 {
+    display: none;
+  }
+  .background__image-2 {
+    position: absolute;
+    top: 552px;
+    left: 303px;
+    width: 39px;
+    height: 41px;
+  }
+  .background__image-3 {
+    position: absolute;
+    top: 529px;
+    left: 272px;
+    width: 18px;
+    height: 18px;
+  }
+  .background__image-4 {
+    position: absolute;
+    top: 64px;
+    left: 91px;
+    width: 21px;
+    height: 21px;
+  }
+  .background__image-5 {
+    position: absolute;
+    top: 97px;
+    left: 37px;
+    width: 35px;
+    height: 35px;
+  }
+  .background__image-6 {
+    display: block;
+    position: absolute;
+    left: 216px;
+  }
+  .welcom {
+    padding-top: 147px;
+    padding-bottom: 131px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .welcom__greeting {
+    font-size: 40px;
+    text-align: center;
+  }
+  .welcom__description {
+    font-size: 16px;
+    text-align: center;
+    line-height: 100%;
+  }
+  .welcom__start {
+    margin-top: 36px;
+    font-size: 16px;
+    padding: 16px 103px;
+    width: 78px;
+  }
+  .scroll-bar__name {
+    font-size: 16px;
+    padding: 16px 27px 16px 24px;
+  }
+  .scroll-bar__star {
+    width: 19px;
+    height: 19px;
+  }
+  .about {
+    display: none;
+  }
+  .footer {
+    height: 100px;
+  }
+  .footer__text {
+    font-size: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */

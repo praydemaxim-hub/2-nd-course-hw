@@ -90,12 +90,15 @@ select {
 }
 .scroll-bar {
     background-color: #BCEC30;
-    width: 500%;
-    display: flex;
-    align-items: center;
+    width: 120%; 
     overflow: hidden;
     white-space: nowrap;
-    animation: scroll-bar 10s linear infinite;
+    position: relative;
+    left: -120px;
+    &__list {
+        display: inline-flex;
+        animation: scroll-bar 10s linear infinite;
+    }
     &__name {
         font-size: 30px;
         font-weight: 700;
@@ -105,6 +108,8 @@ select {
     &__star {
         width: 36px;
         height: 36px;
+        padding-top: 27px;
+
     }
 }
 .section-header {
@@ -332,10 +337,10 @@ select {
 }
 @keyframes scroll-bar {
   0% {
-    transform: translateX(-5%);
+    transform: translateX(0%);
   }
   100% {
-    transform: translateX(-56%);
+    transform: translateX(-50%);
   }
 }
 

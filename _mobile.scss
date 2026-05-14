@@ -69,7 +69,8 @@
     }
     .scroll-bar {
         position: relative;
-        left: -6px;
+        left: -19px;
+        width: 105%;
         &__name {
             font-size: 16px;
             padding: 16px 27px 16px 24px;
@@ -77,6 +78,7 @@
         &__star {
             width: 19px;
             height: 19px;
+            padding-top: 16px;
         }
     }
     .about {

@@ -97,11 +97,14 @@ select {
 
 .scroll-bar {
   background-color: #BCEC30;
-  width: 500%;
-  display: flex;
-  align-items: center;
+  width: 120%;
   overflow: hidden;
   white-space: nowrap;
+  position: relative;
+  left: -120px;
+}
+.scroll-bar__list {
+  display: inline-flex;
   animation: scroll-bar 10s linear infinite;
 }
 .scroll-bar__name {
@@ -113,6 +116,7 @@ select {
 .scroll-bar__star {
   width: 36px;
   height: 36px;
+  padding-top: 27px;
 }
 
 .section-header {
@@ -346,10 +350,10 @@ select {
 
 @keyframes scroll-bar {
   0% {
-    transform: translateX(-5%);
+    transform: translateX(0%);
   }
   100% {
-    transform: translateX(-56%);
+    transform: translateX(-50%);
   }
 }
 @media (max-width: 767px) {
@@ -421,7 +425,8 @@ select {
   }
   .scroll-bar {
     position: relative;
-    left: -6px;
+    left: -19px;
+    width: 105%;
   }
   .scroll-bar__name {
     font-size: 16px;
@@ -430,6 +435,7 @@ select {
   .scroll-bar__star {
     width: 19px;
     height: 19px;
+    padding-top: 16px;
   }
   .about {
     display: none;

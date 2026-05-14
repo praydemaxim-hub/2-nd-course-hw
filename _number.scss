@@ -30,7 +30,7 @@
         outline: none;
     }
     &__button {
-        background-color: #fff;
+        background-color: #6b6b6b;
         padding: 16px 65px;
         border: 1px solid #202027;
         border-radius: 60px;
@@ -40,6 +40,9 @@
         font-weight: 600;
         margin: 24px;
         cursor: pointer;
+        &:hover {
+            background-color: #fff;
+        }
     }
 }
 .hint {

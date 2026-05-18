@@ -97,11 +97,14 @@ select {
 
 .scroll-bar {
   background-color: #BCEC30;
-  width: 500%;
-  display: flex;
-  align-items: center;
+  width: 120%;
   overflow: hidden;
   white-space: nowrap;
+  position: relative;
+  left: -120px;
+}
+.scroll-bar__list {
+  display: inline-flex;
   animation: scroll-bar 10s linear infinite;
 }
 .scroll-bar__name {
@@ -113,6 +116,7 @@ select {
 .scroll-bar__star {
   width: 36px;
   height: 36px;
+  padding-top: 27px;
 }
 
 .section-header {
@@ -346,10 +350,10 @@ select {
 
 @keyframes scroll-bar {
   0% {
-    transform: translateX(-5%);
+    transform: translateX(0%);
   }
   100% {
-    transform: translateX(-56%);
+    transform: translateX(-50%);
   }
 }
 @media (max-width: 767px) {
@@ -421,7 +425,8 @@ select {
   }
   .scroll-bar {
     position: relative;
-    left: -6px;
+    left: -19px;
+    width: 105%;
   }
   .scroll-bar__name {
     font-size: 16px;
@@ -430,6 +435,7 @@ select {
   .scroll-bar__star {
     width: 19px;
     height: 19px;
+    padding-top: 16px;
   }
   .about {
     display: none;
@@ -478,4 +484,67 @@ select {
   .footer__text {
     font-size: 20px;
   }
+}
+.number {
+  padding-top: 94px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.number__name {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 100%;
+  color: #fff;
+  padding-bottom: 24px;
+}
+.number__about {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #fff;
+  padding-bottom: 12px;
+}
+.number__input {
+  background-color: #fff;
+  width: 200px;
+  padding: 16px 65px;
+  border: 1px solid #202027;
+  border-radius: 60px;
+  font-size: 24px;
+  outline: none;
+}
+.number__button {
+  background-color: #6b6b6b;
+  padding: 16px 65px;
+  border: 1px solid #202027;
+  border-radius: 60px;
+  color: #202027;
+  font-size: 24px;
+  line-height: 142%;
+  font-weight: 600;
+  margin: 24px;
+  cursor: pointer;
+}
+.number__button:hover {
+  background-color: #fff;
+}
+
+.hint-higher {
+  margin-bottom: 12px;
+  color: #fff;
+  font-size: 18px;
+}
+.hint-lower {
+  margin-bottom: 12px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.correct {
+  margin-bottom: 12px;
+  color: #fff;
+  font-size: 18px;
 }/*# sourceMappingURL=style.css.map */

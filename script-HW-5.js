@@ -38,16 +38,16 @@ function checkAge() {
     const age = Number(userInput);
 
     if (isNaN(age)) {
-        console.log('Вы ввели неправильное значение');
-        return;
+    console.log('Вы ввели неправильное значение');
+    return;
     }
 
     if (age < 0) {
-        console.log('Вы ввели неправильное значение');
+    console.log('Вы ввели неправильное значение');
     } else if (age >= 0 && age <= 12) {
-        console.log('Привет, друг!');
+    console.log('Привет, друг!');
     } else {
-        console.log('Добро пожаловать!');
+    console.log('Добро пожаловать!');
     }
 }
 
@@ -56,14 +56,14 @@ console.log(checkAge());
 //Задание 5
 function multiplyNumbers(a, b) {
 
-    const num1 = Number(a);
-    const num2 = Number(b);
+const num1 = Number(a);
+const num2 = Number(b);
 
-    if (isNaN(num1) || isNaN(num2) || !Number.isFinite(num1) || !Number.isFinite(num2)) {
-        return 'Одно или оба значения не являются числом';
-    }
+if (isNaN(num1) || isNaN(num2) || !Number.isFinite(num1) || !Number.isFinite(num2)) {
+return 'Одно или оба значения не являются числом';
+}
 
-    return num1 * num2;
+return num1 * num2;
 }
 
 console.log(multiplyNumbers(5, 3));

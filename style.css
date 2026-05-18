@@ -359,135 +359,6 @@ select {
     transform: translateX(-50%);
   }
 }
-@media (max-width: 767px) {
-  .center {
-    padding-left: calc(50% - 202px);
-    padding-right: calc(50% - 202px);
-  }
-  .background__image-1 {
-    display: none;
-  }
-  .background__image-2 {
-    position: absolute;
-    top: 552px;
-    left: 303px;
-    width: 39px;
-    height: 41px;
-  }
-  .background__image-3 {
-    position: absolute;
-    top: 529px;
-    left: 272px;
-    width: 18px;
-    height: 18px;
-  }
-  .background__image-4 {
-    position: absolute;
-    top: 64px;
-    left: 91px;
-    width: 21px;
-    height: 21px;
-  }
-  .background__image-5 {
-    position: absolute;
-    top: 97px;
-    left: 37px;
-    width: 35px;
-    height: 35px;
-  }
-  .background__image-6 {
-    display: block;
-    position: absolute;
-    left: 216px;
-  }
-  .section-header {
-    font-size: 40px;
-    padding: 48px 16px;
-  }
-  .welcom {
-    padding-top: 147px;
-    padding-bottom: 131px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-  .welcom__greeting {
-    font-size: 40px;
-    text-align: center;
-  }
-  .welcom__description {
-    font-size: 16px;
-    text-align: center;
-    line-height: 100%;
-  }
-  .welcom__start {
-    margin-top: 36px;
-    font-size: 16px;
-    padding: 16px 103px;
-    width: 78px;
-  }
-  .scroll-bar {
-    position: relative;
-    left: -19px;
-    width: 105%;
-  }
-  .scroll-bar__name {
-    font-size: 16px;
-    padding: 16px 27px 16px 24px;
-  }
-  .scroll-bar__star {
-    width: 19px;
-    height: 19px;
-    padding-top: 16px;
-  }
-  .about {
-    display: none;
-  }
-  .mini-game {
-    padding-bottom: 10px;
-  }
-  .mini-game__image {
-    display: none;
-  }
-  .play {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .play__block {
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: column-reverse;
-    width: 343px;
-  }
-  .play__cart {
-    display: flex;
-    flex-direction: column;
-    width: 343px;
-    padding: 29px;
-  }
-  .play__name {
-    font-size: 40px;
-  }
-  .play__about {
-    font-size: 16px;
-    line-height: 100%;
-  }
-  .play__link {
-    font-size: 16px;
-    padding: 16px 103px;
-    width: 78px;
-  }
-  .play__color {
-    width: 343px;
-  }
-  .footer {
-    height: 100px;
-  }
-  .footer__text {
-    font-size: 20px;
-  }
-}
 .number {
   padding-top: 94px;
   padding-bottom: 10px;
@@ -890,4 +761,272 @@ select {
   padding: 12px 24px;
   border-radius: 10px;
   backdrop-filter: blur(5px);
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: calc(50% - 202px);
+    padding-right: calc(50% - 202px);
+  }
+  .background__image-1 {
+    display: none;
+  }
+  .background__image-2 {
+    position: absolute;
+    top: 552px;
+    left: 303px;
+    width: 39px;
+    height: 41px;
+  }
+  .background__image-3 {
+    position: absolute;
+    top: 529px;
+    left: 272px;
+    width: 18px;
+    height: 18px;
+  }
+  .background__image-4 {
+    position: absolute;
+    top: 64px;
+    left: 91px;
+    width: 21px;
+    height: 21px;
+  }
+  .background__image-5 {
+    position: absolute;
+    top: 97px;
+    left: 37px;
+    width: 35px;
+    height: 35px;
+  }
+  .background__image-6 {
+    display: block;
+    position: absolute;
+    left: 216px;
+  }
+  .section-header {
+    font-size: 40px;
+    padding: 48px 16px;
+  }
+  .welcom {
+    padding-top: 147px;
+    padding-bottom: 131px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .welcom__greeting {
+    font-size: 40px;
+    text-align: center;
+  }
+  .welcom__description {
+    font-size: 16px;
+    text-align: center;
+    line-height: 100%;
+  }
+  .welcom__start {
+    margin-top: 30px;
+    font-size: 16px;
+    padding: 16px 103px;
+    width: 78px;
+  }
+  .scroll-bar {
+    position: relative;
+    left: -19px;
+    width: 105%;
+  }
+  .scroll-bar__name {
+    font-size: 16px;
+    padding: 16px 27px 16px 24px;
+  }
+  .scroll-bar__star {
+    width: 19px;
+    height: 19px;
+    padding-top: 16px;
+  }
+  .about {
+    display: none;
+  }
+  .mini-game {
+    padding-bottom: 10px;
+  }
+  .mini-game__image {
+    display: none;
+  }
+  .play {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .play__block {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column-reverse;
+    width: 343px;
+  }
+  .play__cart {
+    display: flex;
+    flex-direction: column;
+    width: 343px;
+    padding: 29px;
+  }
+  .play__name {
+    font-size: 40px;
+  }
+  .play__about {
+    font-size: 16px;
+    line-height: 100%;
+  }
+  .play__link {
+    font-size: 16px;
+    padding: 16px 103px;
+    width: 78px;
+  }
+  .play__color {
+    width: 343px;
+  }
+  .number {
+    padding-top: 24px;
+  }
+  .number__name {
+    font-size: 24px;
+    padding-bottom: 18px;
+  }
+  .number__about {
+    font-size: 12px;
+    line-height: 24px;
+    padding-bottom: 8px;
+  }
+  .number__input {
+    width: 100px;
+    padding: 8px 32px;
+    border-radius: 30px;
+    font-size: 12px;
+  }
+  .number__button {
+    padding: 8px 32px;
+    border-radius: 30px;
+    font-size: 18px;
+    line-height: 100%;
+    margin: 18px;
+  }
+  .arithmetic {
+    padding-top: 24px;
+  }
+  .arithmetic__name {
+    font-size: 24px;
+    padding-bottom: 18px;
+  }
+  .arithmetic__task {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  .arithmetic__input {
+    width: 100px;
+    padding: 8px 32px;
+    border-radius: 30px;
+    font-size: 12px;
+  }
+  .arithmetic__button {
+    padding: 8px 32px;
+    border-radius: 30px;
+    font-size: 12px;
+    line-height: 100%;
+    margin: 18px;
+  }
+  .arithmetic__score {
+    font-size: 12px;
+  }
+  .arithmetic__result {
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 10px;
+    min-height: 12px;
+  }
+  .turn-text {
+    padding-top: 24px;
+  }
+  .turn-text__name {
+    font-size: 24px;
+    padding-bottom: 18px;
+  }
+  .turn-text__input {
+    width: 100px;
+    padding: 8px 32px;
+    border-radius: 30px;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .turn-text__button {
+    padding: 8px 32px;
+    border-radius: 30px;
+    font-size: 12px;
+    line-height: 100%;
+    margin: 8px;
+  }
+  .turn-text__result {
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 10px;
+    min-height: 12px;
+  }
+  .rsp-game {
+    padding-top: 24px;
+  }
+  .rsp-game__name {
+    font-size: 24px;
+    padding-bottom: 18px;
+  }
+  .rsp-game__choice {
+    padding: 8px 15px;
+    border-radius: 30px;
+    font-size: 12px;
+    line-height: 100%;
+  }
+  .rsp-game__choices {
+    margin-bottom: 14px;
+  }
+  .rsp-game__button {
+    padding: 8px 32px;
+    border-radius: 30px;
+    font-size: 12px;
+    line-height: 100%;
+    margin: 8px;
+  }
+  .rsp-game__result {
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 10px;
+    min-height: 12px;
+  }
+  .color__title {
+    font-size: 24px;
+    padding-bottom: 18px;
+    text-align: center;
+  }
+  .color__about {
+    font-size: 12px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .color__button {
+    padding: 12px 36px;
+    font-size: 14px;
+    border-radius: 30px;
+  }
+  .current-color {
+    margin-top: 14px;
+    font-size: 12px;
+    color: #fff;
+    padding: 8px 16px;
+  }
+  .hint-higher {
+    font-size: 12px;
+  }
+  .footer {
+    height: 100px;
+  }
+  .footer__text {
+    font-size: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */

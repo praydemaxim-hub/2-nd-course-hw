@@ -669,4 +669,80 @@ select {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   max-width: 80%;
+}
+
+.rsp-game {
+  padding-top: 94px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.rsp-game__name {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 100%;
+  color: #fff;
+  padding-bottom: 24px;
+}
+.rsp-game__choices {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+.rsp-game__choice {
+  background-color: #6b6b6b;
+  padding: 16px 30px;
+  border: 1px solid #202027;
+  border-radius: 60px;
+  color: #202027;
+  font-size: 24px;
+  line-height: 142%;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.rsp-game__choice:hover {
+  background-color: #fff;
+}
+.rsp-game__result {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+  min-height: 40px;
+  text-align: center;
+}
+.rsp-game__score {
+  font-size: 18px;
+  color: #fff;
+  margin-top: 10px;
+}
+.rsp-game__button {
+  background-color: #6b6b6b;
+  padding: 16px 65px;
+  border: 1px solid #202027;
+  border-radius: 60px;
+  color: #202027;
+  font-size: 24px;
+  line-height: 142%;
+  font-weight: 600;
+  margin: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.rsp-game__button:hover {
+  background-color: #fff;
+}
+
+.win {
+  color: #4CAF50;
+}
+
+.lose {
+  color: #F44336;
+}
+
+.draw {
+  color: #FFA500;
 }/*# sourceMappingURL=style.css.map */

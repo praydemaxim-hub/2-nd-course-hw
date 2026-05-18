@@ -1,0 +1,73 @@
+.arithmetic {
+    padding-top: 94px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.arithmetic__name {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 100%;
+    color: #fff;
+    padding-bottom: 24px;
+}
+
+.arithmetic__task {
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.arithmetic__input {
+    background-color: #fff;
+    width: 200px;
+    padding: 16px 65px;
+    border: 1px solid #202027;
+    border-radius: 60px;
+    font-size: 24px;
+    outline: none;
+    text-align: center;
+}
+
+.arithmetic__button {
+    background-color: #6b6b6b;
+    padding: 16px 65px;
+    border: 1px solid #202027;
+    border-radius: 60px;
+    color: #202027;
+    font-size: 24px;
+    line-height: 142%;
+    font-weight: 600;
+    margin: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.arithmetic__button:hover {
+    background-color: #fff;
+}
+
+.arithmetic__result {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    min-height: 24px;
+}
+
+.arithmetic__score {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.correct {
+    color: #4CAF50;
+}
+
+.incorrect {
+    color: #F44336;
+}

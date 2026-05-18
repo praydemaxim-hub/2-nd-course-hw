@@ -25,6 +25,7 @@ select {
     &__image-1 {
         position: absolute;
         left: 734px;
+        z-index: 0;
     }
     &__image-2 {
         position: absolute;
@@ -59,6 +60,8 @@ select {
         line-height: 100%;
         color: #202027;
         padding-bottom: 24px;
+        position: relative;
+        z-index: 1;
     }
     &__description {
         font-size: 24px;
@@ -343,5 +346,10 @@ select {
   }
 }
 
-@import 'mobile';
 @import 'number';
+@import 'arithmetic';
+@import 'turnText';
+@import 'rsp';
+@import 'quiz';
+@import 'generatorColor';
+@import 'mobile';

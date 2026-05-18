@@ -35,7 +35,6 @@ function updateScore(result) {
   scoreElement.textContent = `Счёт: ${userScore}‑${computerScore}`;
 }
 
-// Обработчик кликов по кнопкам выбора
 document.querySelectorAll('.rsp-game__choice').forEach(button => {
   button.addEventListener('click', () => {
     const userChoice = button.getAttribute('data-choice');
@@ -55,22 +54,18 @@ document.querySelectorAll('.rsp-game__choice').forEach(button => {
       resultElement.className = 'rsp-game__result lose';
     }
 
-    // Выводим результат
     resultElement.textContent = resultText;
 
-    // Обновляем счёт
     updateScore(result);
   });
 });
 
-// Функция сброса игры
 function resetGame() {
   userScore = 0;
   computerScore = 0;
-  updateScore(); // Обновляем отображение счёта
-  resultElement.textContent = ''; // Очищаем поле результата
-  resultElement.className = 'rsp-game__result'; // Сбрасываем стили результата
+  updateScore();
+  resultElement.textContent = '';
+  resultElement.className = 'rsp-game__result';
 }
 
-// Добавляем обработчик для кнопки сброса
 document.getElementById('resetBtn').addEventListener('click', resetGame);

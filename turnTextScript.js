@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function() {
     const textInput = document.getElementById('textInput');
     const turnBtn = document.getElementById('turnBtn');
     const clearBtn = document.getElementById('clearBtn');
@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
         return text.split('').reverse().join('');
     }
 
-    turnBtn.addEventListener('click', function () {
+    turnBtn.addEventListener('click', function() {
         const inputText = textInput.value;
 
         if (inputText.trim() === '') {
@@ -21,13 +21,13 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    clearBtn.addEventListener('click', function () {
+    clearBtn.addEventListener('click', function() {
         textInput.value = '';
         result.textContent = 'Результат появится здесь';
         result.style.color = '#fff';
     });
 
-    textInput.addEventListener('keypress', function (e) {
+    textInput.addEventListener('keypress', function(e) {
         if (e.key === 'Enter') {
             turnBtn.click();
         }

@@ -2,7 +2,6 @@
     padding-top: 64px;
     display: flex;
     justify-content: center;
-
     &__container {
         max-width: 600px;
         width: 100%;
@@ -10,7 +9,6 @@
         padding: 30px;
         border-radius: 10px;
     }
-
     &__title {
         font-size: 28px;
         font-weight: 600;
@@ -18,7 +16,6 @@
         margin-bottom: 25px;
         color: #BDED35;
     }
-
     &__button {
         display: block;
         margin: 30px auto 20px;
@@ -31,12 +28,10 @@
         font-weight: 600;
         cursor: pointer;
         transition: background-color 0.3s;
-
         &:hover {
             background-color: #E1FF8F;
         }
     }
-
     &__result {
         text-align: center;
         font-size: 20px;
@@ -51,7 +46,6 @@
     margin-bottom: 20px;
     padding-bottom: 15px;
     border-bottom: 1px solid #eee;
-
     &__text {
         font-size: 18px;
         font-weight: 500;
@@ -75,7 +69,6 @@
     border-radius: 6px;
     transition: all 0.3s ease;
     color: #E1FF8F;
-
     &:hover {
         background-color: #4c4c60;
         border-color: #E1FF8F;
@@ -85,17 +78,17 @@
 }
 
 .option input {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .correct-result {
-    background-color: #d4edda;
-    color: #1b8233;
-    border: 1px solid #c3e6cb;
+  background-color: #d4edda;
+  color: #1b8233;
+  border: 1px solid #c3e6cb;
 }
 
 .incorrect-result {
-    background-color: #f8d7da;
-    color: #bd1a2a;
-    border: 1px solid #f5c6cb;
+  background-color: #f8d7da;
+  color: #bd1a2a;
+  border: 1px solid #f5c6cb;
 }

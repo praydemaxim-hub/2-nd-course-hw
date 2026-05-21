@@ -19,6 +19,6 @@ const colorButton = document.getElementById('changeColorBtn');
 
 colorButton.addEventListener('click', updateBackgroundColor);
 
-window.addEventListener('load', function () {
+window.addEventListener('load', function() {
     updateBackgroundColor();
 });

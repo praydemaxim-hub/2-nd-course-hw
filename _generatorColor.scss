@@ -5,7 +5,6 @@
     align-items: center;
     flex-direction: column;
     flex-wrap: nowrap;
-
     &__title {
         font-size: 48px;
         font-weight: 600;
@@ -13,14 +12,12 @@
         color: #fff;
         padding-bottom: 24px;
     }
-
     &__about {
         font-size: 18px;
         font-weight: 500;
         color: #fff;
         padding-bottom: 20px;
     }
-
     &__button {
         background-color: #7e9f22;
         color: white;
@@ -31,7 +28,6 @@
         border-radius: 50px;
         cursor: pointer;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-
         &:hover {
             background-color: #c6f741;
             box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);

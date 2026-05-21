@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Простая арифметика</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section class="main-page">
+        <header class="header center">
+            <div class="background">
+                <span><img class="background__image-1" src="Image/Group-stars.png" alt="*"></span>
+                <span><img class="background__image-2" src="Image/Transparent-star.png" alt="*"></span>
+                <span><img class="background__image-3" src="Image/Green-star.png" alt="*"></span>
+                <span><img class="background__image-4" src="Image/Transparent-star-small.png" alt="*"></span>
+                <span><img class="background__image-5" src="Image/Green-star-big.png" alt="*"></span>
+                <span><img class="background__image-6" src="Image/Star-mobile.png" alt="*"></span>
+            </div>
+            <div class="welcom">
+                <h1 class="welcom__greeting">Добро пожаловать в игру <br>ПРОСТАЯ АРИФМЕТИКА</h1>
+                <p class="welcom__description">Решайте примеры и проверяйте свои знания!</p>
+                <a class="welcom__start" href="index.html">Домой!</a>
+            </div>
+            <div class="scroll-bar">
+                <div class="scroll-bar__list">
+                    <span class="scroll-bar__name">ВИКТОРИНА</span>
+                    <span><img class="scroll-bar__star" src="Image/Black-star.png" alt="*"></span>
+                    <span class="scroll-bar__name">УГАДАЙ ЧИСЛО</span>
+                    <span><img class="scroll-bar__star" src="Image/Black-star.png" alt="*"></span>
+                    <span class="scroll-bar__name">ПЕРЕВЕРНИ ТЕКСТ</span>
+                    <span><img class="scroll-bar__star" src="Image/Black-star.png" alt="*"></span>
+                    <span class="scroll-bar__name">ПРОСТАЯ АРИФМЕТИКА</span>
+                    <span><img class="scroll-bar__star" src="Image/Black-star.png" alt="*"></span>
+                    <span class="scroll-bar__name">КАМЕНЬ, НОЖНИЦЫ, БУМАГА</span>
+                    <span><img class="scroll-bar__star" src="Image/Black-star.png" alt="*"></span>
+                    <span class="scroll-bar__name">ГЕНЕРАТОР СЛУЧАЙНЫХ ЦВЕТОВ</span>
+                    <span><img class="scroll-bar__star" src="Image/Black-star.png" alt="*"></span>
+                    <span class="scroll-bar__name">ВИКТОРИНА</span>
+                    <span><img class="scroll-bar__star" src="Image/Black-star.png" alt="*"></span>
+                    <span class="scroll-bar__name">УГАДАЙ ЧИСЛО</span>
+                    <span><img class="scroll-bar__star" src="Image/Black-star.png" alt="*"></span>
+                    <span class="scroll-bar__name">ПЕРЕВЕРНИ ТЕКСТ</span>
+                    <span><img class="scroll-bar__star" src="Image/Black-star.png" alt="*"></span>
+                    <span class="scroll-bar__name">ПРОСТАЯ АРИФМЕТИКА</span>
+                    <span><img class="scroll-bar__star" src="Image/Black-star.png" alt="*"></span>
+                    <span class="scroll-bar__name">КАМЕНЬ, НОЖНИЦЫ, БУМАГА</span>
+                    <span><img class="scroll-bar__star" src="Image/Black-star.png" alt="*"></span>
+                    <span class="scroll-bar__name">ГЕНЕРАТОР СЛУЧАЙНЫХ ЦВЕТОВ</span>
+                    <span><img class="scroll-bar__star" src="Image/Black-star.png" alt="*"></span>
+                </div>
+            </div>
+        </header>
+    </section>
+
+    <section class="mini-game center">
+        <div class="mini-game__image">
+            <span><img class="mini-game__image-1" src="Image/BG-star-medium.png" alt="*"></span>
+            <span><img class="mini-game__image-2" src="Image/BG-star-small.png" alt="*"></span>
+        </div>
+        <div class="arithmetic">
+            <h1 class="arithmetic__name">Простая арифметика</h1>
+            <p class="arithmetic__task" id="task">Пример появится здесь</p>
+            <input class="arithmetic__input" type="number" id="answerInput" placeholder="Введите ответ">
+            <button class="arithmetic__button" id="checkBtn">Проверить</button>
+            <div class="arithmetic__result" id="result"></div>
+            <div class="arithmetic__score" id="score">Правильных ответов: 0 из 0</div>
+            <button class="arithmetic__button" id="newTaskBtn">Новый пример</button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__text">Все права защищены.</p>
+    </footer>
+    <script src="arithmeticScript.js"></script>
+</body>
+
+</html>

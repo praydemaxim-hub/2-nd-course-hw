@@ -61,7 +61,7 @@
             line-height: 100%;
         }
         &__start {
-            margin-top: 36px;
+            margin-top: 30px;
             font-size: 16px;
             padding: 16px 103px;
             width: 78px;
@@ -121,6 +121,146 @@
         &__color {
             width: 343px;
         }
+    }
+    .number {
+        padding-top: 24px;
+        &__name {
+            font-size: 24px;
+            padding-bottom: 18px;
+        }
+        &__about {
+            font-size: 12px;
+            line-height: 24px;
+            padding-bottom: 8px;
+        }
+        &__input {
+            width: 100px;
+            padding: 8px 32px;
+            border-radius: 30px;
+            font-size: 12px;
+        }
+        &__button {
+            padding: 8px 32px;
+            border-radius: 30px;
+            font-size: 18px;
+            line-height: 100%;
+            margin: 18px;
+        }
+    }
+    .arithmetic {
+        padding-top: 24px;
+        &__name {
+            font-size: 24px;
+            padding-bottom: 18px;
+        }
+        &__task {
+            font-size: 18px;
+            padding-bottom: 10px;
+        }
+        &__input {
+            width: 100px;
+            padding: 8px 32px;
+            border-radius: 30px;
+            font-size: 12px;
+        }
+        &__button {
+            padding: 8px 32px;
+            border-radius: 30px;
+            font-size: 12px;
+            line-height: 100%;
+            margin: 18px;
+        }
+        &__score {
+            font-size: 12px;
+        }
+        &__result {
+            font-size: 10px;
+            font-weight: 500;
+            margin-top: 10px;
+            min-height: 12px;
+        }
+    }
+    .turn-text {
+        padding-top: 24px;
+        &__name {
+            font-size: 24px;
+            padding-bottom: 18px;
+        }
+        &__input {
+            width: 100px;
+            padding: 8px 32px;
+            border-radius: 30px;
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+        &__button {
+            padding: 8px 32px;
+            border-radius: 30px;
+            font-size: 12px;
+            line-height: 100%;
+            margin: 8px;
+        }
+        &__result {
+            font-size: 10px;
+            font-weight: 500;
+            margin-top: 10px;
+            min-height: 12px;
+        }
+    }
+    .rsp-game {
+        padding-top: 24px;
+        &__name {
+            font-size: 24px;
+            padding-bottom: 18px;
+        }
+        &__choice {
+            padding: 8px 15px;
+            border-radius: 30px;
+            font-size: 12px;
+            line-height: 100%;
+        }
+        &__choices {
+            margin-bottom: 14px;
+        }
+        &__button {
+            padding: 8px 32px;
+            border-radius: 30px;
+            font-size: 12px;
+            line-height: 100%;
+            margin: 8px;
+        }
+        &__result {
+            font-size: 10px;
+            font-weight: 500;
+            margin-top: 10px;
+            min-height: 12px;
+        }
+    }
+    .color {
+        &__title {
+            font-size: 24px;
+            padding-bottom: 18px;
+            text-align: center;
+        }
+        &__about {
+            font-size: 12px;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+        &__button {
+            padding: 12px 36px;
+            font-size: 14px;
+            border-radius: 30px;
+        }
+    }
+    .current-color {
+        margin-top: 14px;
+        font-size: 12px;
+        color: #fff;
+        padding: 8px 16px;
+    }
+    .hint-higher {
+        font-size: 12px;
     }
     .footer {
         height: 100px;

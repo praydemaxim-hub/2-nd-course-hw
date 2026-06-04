@@ -103,15 +103,17 @@
         &__cart {
             display: flex;
             flex-direction: column;
-            width: 343px;
-            padding: 29px;
+            width: 314px;
+            padding: 29px 0px 29px 29px;
         }
         &__name {
             font-size: 40px;
+            width: 100%;
         }
         &__about {
             font-size: 16px;
             line-height: 100%;
+            width: 100%;
         }
         &__link {
             font-size: 16px;

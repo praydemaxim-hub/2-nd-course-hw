@@ -21,31 +21,31 @@ select {
     background-color: #E1FF8F;
 }
 .background {
-    position: absolute;
+    /*position: absolute;*/
     &__image-1 {
         position: absolute;
-        left: 734px;
+        left: calc(100% - 586px);
         z-index: 0;
     }
     &__image-2 {
         position: absolute;
         top: 568px;
-        left: 893px;
+        left: calc(100% - 427px);
     }
     &__image-3 {
         position: absolute;
         top: 538px;
-        left: 828px;
+        left: calc(100% - 492px);
     }
     &__image-4 {
         position: absolute;
         top: 69px;
-        left: 36px;
+        left: 156px;
     }
     &__image-5 {
         position: absolute;
         top: 94px;
-        left: -57px;
+        left: 63px;
     }
     &__image-6 {
         display: none;
@@ -342,7 +342,7 @@ select {
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-33%);
   }
 }
 

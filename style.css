@@ -26,32 +26,32 @@ select {
 }
 
 .background {
-  position: absolute;
+  /*position: absolute;*/
 }
 .background__image-1 {
   position: absolute;
-  left: 734px;
+  left: calc(100% - 586px);
   z-index: 0;
 }
 .background__image-2 {
   position: absolute;
   top: 568px;
-  left: 893px;
+  left: calc(100% - 427px);
 }
 .background__image-3 {
   position: absolute;
   top: 538px;
-  left: 828px;
+  left: calc(100% - 492px);
 }
 .background__image-4 {
   position: absolute;
   top: 69px;
-  left: 36px;
+  left: 156px;
 }
 .background__image-5 {
   position: absolute;
   top: 94px;
-  left: -57px;
+  left: 63px;
 }
 .background__image-6 {
   display: none;
@@ -356,7 +356,7 @@ select {
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-33%);
   }
 }
 .number {
@@ -867,15 +867,17 @@ select {
   .play__cart {
     display: flex;
     flex-direction: column;
-    width: 343px;
-    padding: 29px;
+    width: 314px;
+    padding: 29px 0px 29px 29px;
   }
   .play__name {
     font-size: 40px;
+    width: 100%;
   }
   .play__about {
     font-size: 16px;
     line-height: 100%;
+    width: 100%;
   }
   .play__link {
     font-size: 16px;

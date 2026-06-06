@@ -100,11 +100,10 @@ select {
 
 .scroll-bar {
   background-color: #BCEC30;
-  width: 120%;
+  width: 100%;
   overflow: hidden;
   white-space: nowrap;
   position: relative;
-  left: -120px;
 }
 .scroll-bar__list {
   display: inline-flex;
